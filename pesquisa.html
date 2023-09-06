@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="shortcut icon" href="minha-logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald&family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Pesquisa</title>
+</head>
+<body>
+  <a href="index.html">
+    <img src="voltar.png" alt="voltar" class="voltar">
+  </a>
+    <div class="bnt-links">
+      <p class="bnt" onclick="Mamiferos()"><a class="link-pesquisa" href="#paragrafo1"> Mamiferos</a></p>
+      <p class="bnt" onclick="Repteis()"><a class="link-pesquisa" href="#paragrafo2"> Répteis</a></p>
+      <p class="bnt" onclick="anfibios()"><a class="link-pesquisa" href="#paragrafo3"> Anfíbios</a></p>
+      <p class="bnt" onclick="aves()"><a class="link-pesquisa" href="#paragrafo4"> Aves</a></p>
+      <p class="bnt" onclick="peixes()"><a class="link-pesquisa" href="#paragrafo5"> Peixes</a></p>
+    </div>
+    <div class="para-centralizar">
+      
+    <table class="tabelha-um">
+        <tr>
+          <td>
+        
+            <div class="container-pesquisa">
+          
+              <div class="centro-imagem">
+                <img src="baleia.jpg" alt="Baleia" id="imagem1" class="elemento" src="caminho/para/imagem1.jpg">
+              </div>
+                <p id="paragrafo1" class="elemento"><strong>Espécie:</strong><span> Baleia-cinzenta</span> </p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 12 M </span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 27.000 kg</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 50- 90 anos</span></p>
+
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="golfinho.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+              </div>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Golfinho-rotador</span> </p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 1,90 M</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 65 kg</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 35 anos</span></p>
+            </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="cachorro.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+              </div>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Pinscher </span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 27 Cm </span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 1,9 - 3,5 kg kg</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 12 - 16</span></p>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="tigre.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+              </div>  
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Tigre branco </span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 2,7 - 3,1 M </span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 200 - 260 kg</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 20</span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="leao.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+              </div>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Leão</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 1,8 - 2,1 M</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 190 kg</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 10</span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="urso-polar.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+              </div>  
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Urso Polar</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 2,4 - 3 M</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 350 - 700 kg</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 20 - 30</span></p>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="cavalo.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+              </div>  
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Akhal-Teke</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 1,5 - 1,6 M</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 450 kg</span></p>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 25 - 30</span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+                <div class="centro-imagem">
+                  <img src="morcego.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+                </div>  
+                  <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Megachiroptera</span></p>
+                  <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 20 - 40 Cm</span></p>
+                  <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong> <span>0,5 - 1,5 kg</span></p>
+                  <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong> <span>10 - 30</span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="foca.jpg" alt="voltar" id="imagem1" class="elemento" src="caminho/para/imagem2.jpg">
+              </div>
+                <p id="paragrafo-pesquisa" class="elemento"><strong>Espécie:</strong><span> Foca-de-weddell</span></p>
+                  <p id="paragrafo-pesquisa" class="elemento"><strong>Altura:</strong><span> 2,5 M</span></p>
+                  <p id="paragrafo-pesquisa" class="elemento"><strong>Peso:</strong><span> 400 - 600 kg</span></p>
+                  <p id="paragrafo-pesquisa" class="elemento"><strong>Anos:</strong><span> 25 - 30</span></p>
+              </div>
+              </div>
+          </td>
+        </tr>
+      </table>
+    
+    </div>
+
+</div>
+
+       
+
+
+<div class="para-centralizar">
+    <table class="tabela-dois">
+        <tr>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="tartaruga.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo2" class="Repteis"><strong>Espécie:</strong><span> Tartaruga-de-couro </span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 1,5 M</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 500 - 900 kg</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span> 30 - 50</span></p>
+            </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="cobra.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Cobra-real</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 1,8 - 2,4 M</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 1,5 - 3,5 kg</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span> 10 - 20</span></p>
+            </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="jacare.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Jacaré-açu</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 4,5 - 5,5 M</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 300 - 500 kg</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span> 30 - 50</span></p>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="LARGATO.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Lagarto-de-komodo</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 2 - 3 M</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 70 - 90 kg</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span> 20 - 30</span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="iguana.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Iguana-verde</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 2 - 3 M</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 70 - 90 kg</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span> 20 - 30</span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="coral.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Cobra-coral</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 60 - 120 Cm</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 100 - 500 kg</span></p>
+                <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span>15  </span></p>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="crocodilo.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Crocodilo-do-nilo</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 1,7 - 2,5 M</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 400 - 1000 kg</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span>45 - 70  </span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="leopardo.jpeg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Geco-leopardo</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 15 - 20 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 50 - 70 g</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span>10 - 20  </span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="cagado.jpg" alt="voltar" id="imagem1" class="Repteis" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Espécie:</strong><span> Cágado</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Altura:</strong><span> 10 - 15 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Peso:</strong><span> 0,5 - 1,5 kg</span></p>
+              <p id="paragrafo-pesquisa" class="Repteis"><strong>Anos:</strong><span>50 - 60  </span></p>
+              </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="para-centralizar">
+    <table class="tabelha-tres">
+        <tr>
+          <td>
+         
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="sapo-comum.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo3" class="anfibios"><strong>Espécie:</strong><span> Sapo-comum</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 5 - 15 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 10 - 200 g</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>5 - 15  </span></p>
+           
+       
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="salamandra.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span> Hellbender</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 30 - 60 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 1 - 2,5 kg</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>20 - 30  </span></p>
+            </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="ra.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span> Rã-touro-americana</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 10 - 20 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 0,5 - 1,5 kg</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>6 - 10  </span></p>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="axolote.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span> Axolote</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 15 - 25 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 60 - 200 g</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>10 - 15  </span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="perereca-verde.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span> Perereca-verde</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 10 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 3 - 5 g</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>5 - 10  </span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="sapo-cururu.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span> Sapo-cururu</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 7 - 15 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 200 - 500 g</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>6 - 12  </span></p>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="tritao-de-crista.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span> Tritão-de-crista</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 10 - 14 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 10 - 20 g</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>10 - 15  </span></p>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="Sapo-arlequim.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span> Sapo-arlequim</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 5 - 10 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 10 - 50 g</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>5 - 10  </span></p>
+              </div>
+              </div>
+          </td>
+          <td>
+            <div class="container-pesquisa">
+              <div class="centro-imagem">
+                <img src="ra-dourada.jpg" alt="voltar" id="imagem1" class="anfibios" src="caminho/para/imagem2.jpg">
+              </div>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Espécie:</strong><span>Rã-dourada</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Altura:</strong><span> 5 - 7 Cm</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Peso:</strong><span> 15 - 30 g</span></p>
+              <p id="paragrafo-pesquisa" class="anfibios"><strong>Anos:</strong><span>5 - 10  </span></p>
+              </div>
+          </td>
+        </tr>
+      </table>
+    
+    </div>
+
+</div>
+</div>
+
+
+
+<div class="para-centralizar">
+<table class="tabelha-quatro">
+    <tr>
+      <td>
+     
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="pardal.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo4" class="aves"><strong>Espécie:</strong><span>Pardal</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 14 - 16 Cm</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 25 - 30 g</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>2 - 5  </span></p>
+       
+   
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="pica-pau.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span> Pica-pau</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 20 - 30 Cm</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 40 - 150 g</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>4 - 12  </span></p>
+        </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="coruja.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span> Mocho-diabo</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 2,3 - 3 Cm</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 7 - 12 g</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>40 - 60 </span></p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="container-pesquisa">
+        <div class="centro-imagem">
+          <img src="coruja.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+        </div>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span>Gaivotão-real </span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 40 - 50 env</span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 400 - 450 g</span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>8 - 15  </span></p>
+      </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+        <div class="centro-imagem">
+          <img src="flamingo.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+        </div>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span>Flamingo-americano </span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 1,1 - 1,5 m</span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 2,5 - 3,5 kg</span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>20 - 30  </span></p>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="aguia-cinzenta.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span>Águia-cinzenta  </span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 1 m</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 9 kg</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>35 - 40</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="container-pesquisa">
+        <div class="centro-imagem">
+     
+          <img src="Rabo-branco-mirim.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+        </div>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span> Rabo-branco-mirim</span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 9 Cm</span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 7 - 12 g</span></p>
+        <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>150 g </span></p>
+      </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="Pinguin.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span> Pinguim-imperador</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 1 - 1,3 m</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 22 - 45 kg</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>25 - 25 </span></p>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="Tucano-de-bico-verde.jpg" alt="voltar" id="imagem1" class="aves" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Espécie:</strong><span>Tucano-de-bico-verde</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Altura:</strong><span> 45 - 55 cm</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Peso:</strong><span> 350 - 500 g</span></p>
+          <p id="paragrafo-pesquisa" class="aves"><strong>Anos:</strong><span>15 - 20 </span></p>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+</div>
+</div>
+
+<div class="para-centralizar">
+<table class="tabelha-cinco">
+    <tr>
+      <td>
+     
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="Peixe-pedra.jpg" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Peixe-pedra</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span> 45 - 55 cm</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 1 - 2 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>2 - 4 </span></p>
+       </div>
+   
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="Pirambeba-piranha-branca.jpg" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Piranha-branca</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span> 20 - 40 cm</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 0,5 - 1 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>10 - 20 </span></p>
+       </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="poraquês.jpg" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Poraquês</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span> 1 - 2 m</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 15 - 20 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>15 - 20 </span></p>
+       </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="peixe-grande.jpg" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Peixe-gato gigante </span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span> 2 - 3 m</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 300 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>20 - 30 </span></p>
+       </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="Barracuda.jpg" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Barracuda  </span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span> 2 - 3 m</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 30 - 45 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>10 - 14 </span></p>
+       </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="peixe-leao.jpg" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Peixe-leão  </span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span>47 cm</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 200 - 900 g</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>10 - 15 </span></p>
+       </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="Peixe-lua.jpg" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Peixe-lua   </span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span>1,5 - 1,8 m</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 1 - 2,3 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>10 - 15 </span></p>
+       </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="Enguia-elétrica.webp" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Enguia-elétrica   </span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span>1,5 - 2,5 m</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 20 - 30 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>10 - 15 </span></p>
+       </div>
+      </td>
+      <td>
+        <div class="container-pesquisa">
+          <div class="centro-imagem">
+            <img src="peixe-tigre.webp" alt="voltar" id="imagem1" class="peixes" src="caminho/para/imagem2.jpg">
+          </div>
+          <p id="paragrafo5" class="peixes"><strong>Espécie:</strong><span>Peixe-tigre   </span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Altura:</strong><span>1 - 1,5 m</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Peso:</strong><span> 25 - 30 kg</span></p>
+          <p id="paragrafo-pesquisa" class="peixes"><strong>Anos:</strong><span>10 - 13 </span></p>
+       </div>
+    </tr>
+  </table>
+
+</div>
+
+</div>
+</div>
+    <script src="script.js"></script>
+ 
+</body>
+</html>
